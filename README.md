@@ -27,7 +27,7 @@ Visualizations show Random Forest predictions align better with actual trends.
 
 Clone this repository and install dependencies:
 
-git clone https://github.com/HariharanJ2002/stock-price-prediction.git
+git clone [https://github.com/HariharanJ2002/stock-price-prediction.git](https://github.com/HariharanJ2002/Stock-trend-classifier)
 cd stock-price-prediction
 pip install -r requirements.txt
 
