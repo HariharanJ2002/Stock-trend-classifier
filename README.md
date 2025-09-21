@@ -1,24 +1,21 @@
-# Stock-trend-classifier
-Machine learning project that predicts S&amp;P 500 stock index movements (up or down) using historical data. Includes Logistic Regression vs Random Forest comparison, backtesting, and visualizations.
-#📘 Stock Price Movement Prediction (S&P 500)
-#📌 Overview
+# Stock Market Movement Prediction  
 
-This project predicts whether the S&P 500 index will go up or down tomorrow using machine learning.
-We use historical data from Yahoo Finance and compare two models:
+## 📌 Overview  
+This project predicts whether the **S&P 500 index** will go **up (Bull) or down (Bear)** the next day using machine learning.  
+We compare two models:  
 
-Logistic Regression → baseline model.
+- **Logistic Regression** → baseline classifier.  
+- **Random Forest Classifier** → ensemble method for better accuracy.  
 
-Random Forest Classifier → ensemble model.
+The notebook also includes a **backtesting framework** that simulates model performance across historical data.  
 
-The notebook also includes a backtesting framework to simulate how models would perform over time.
+---
 
-#📊 Results
+## 📊 Key Findings  
+- Logistic Regression provides a simple benchmark.  
+- Random Forest consistently achieves better **precision** and captures market patterns more effectively.  
 
-Logistic Regression provides a simple baseline but struggles with complex patterns.
-
-Random Forest achieves higher precision and follows market movements more closely.
-
-Example precision scores:
+Example results:  
 
 Logistic Regression Precision: 0.51
 Random Forest Precision: 0.57
@@ -26,7 +23,7 @@ Random Forest Precision: 0.57
 
 Visualizations show Random Forest predictions align better with actual trends.
 
-#⚙️ Installation
+## ⚙️ Installation
 
 Clone this repository and install dependencies:
 
@@ -34,7 +31,7 @@ git clone https://github.com/HariharanJ2002/stock-price-prediction.git
 cd stock-price-prediction
 pip install -r requirements.txt
 
-#🚀 Usage
+## 🚀 Usage
 
 Run the Jupyter Notebook:
 
@@ -51,7 +48,7 @@ Train Logistic Regression and Random Forest.
 
 Compare performance using precision score and plots.
 
-#📈 Visualizations
+## 📈 Visualizations
 
 The notebook generates side-by-side plots of Actual vs Predicted values:
 
@@ -59,7 +56,7 @@ Logistic Regression: baseline model.
 
 Random Forest: better accuracy and trend capture.
 
-#🔮 Future Improvements
+## 🔮 Future Improvements
 
 Add technical indicators (moving averages, RSI, MACD).
 
@@ -74,6 +71,6 @@ Deploy as a simple web app using Streamlit/Flask.
 ├── requirements.txt                     # Dependencies
 └── README.md                            # Project documentation
 
-#🏷️ Tags
+## 🏷️ Tags
 
 Machine Learning · Finance · Stock Market · Time Series · Data Science
