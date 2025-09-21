@@ -1,7 +1,7 @@
 # Stock Market Movement Prediction  
 
 ## 📌 Overview  
-This project predicts whether the **S&P 500 index** will go **up (Bull) or down (Bear)** the next day using machine learning.  
+This project predicts whether the **S&P 500 index** will go **up or down** the next day using machine learning.  
 We compare two models:  
 
 - **Logistic Regression** → baseline classifier.  
@@ -66,7 +66,7 @@ Apply to individual stocks (AAPL, TSLA, etc.).
 
 Deploy as a simple web app using Streamlit/Flask.
 
-📂 Project Structure
+## 📂 Project Structure
 ├── Stock_Price_Prediction_Clean.ipynb   # Main notebook with code & analysis
 ├── requirements.txt                     # Dependencies
 └── README.md                            # Project documentation
